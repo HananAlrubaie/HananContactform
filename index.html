@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+</html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hanan Space Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="http://upload.dinhosting.fr/p/J/a/favicon_wildcircus.ico">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1 class="brand">Space Adventure</h1>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="adv-section">
+        <h2 class="title-adv" id="adv">Space Adventure</h2>
+        <ul>
+            <li class="adv">
+                <h3 class="vision">vision</h3>
+            </li>
+            <li class="adv">
+                <h3 class="dream">Dream</h3>
+            </li>
+            <li class="adv">
+                <h3 class="Imagination">Imagination</h3>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="contact-section">
+
+        <div class="contact-us">
+            <!-- <form onsubmit="return false" action="contact.php" method="post"> -->
+                <form role="form" id="form" method="post" action="contact.php">
+                <h2>Contact Us </h2>
+                <div class="form-item">
+                    <label for="fname">Name: </label><br>
+                    <input type="text" id="fname" name="name" placeholder="Name" placeholder="Enter your name.."
+                        required>
+                </div>
+                <div class="form-item">
+                    <label for="">Email: </label><br>
+                    <input type="text" name="email" placeholder="Enter your Email" required>
+                </div>
+                <div class="form-item">
+                    <label for="">Message</label><br>
+                    <textarea name="message" cols="30" rows="10" placeholder="tell us everything.."></textarea>
+
+                </div>
+                <button id="button" type="submit" name="submit"> Send </button>
+
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer">
+            <ul>
+                <li class="text">contact us :
+                    Hanan@hanantamkeen.com </li>
+                <li class="text">Saudi Arabia , Riyadh</li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+
+</html>
